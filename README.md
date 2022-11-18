@@ -1,4 +1,4 @@
-# my_projects
+# My projects
 HI, my name is Sebastian.
 I am beginner front end web developer.
 Here are my projects that I made. 
