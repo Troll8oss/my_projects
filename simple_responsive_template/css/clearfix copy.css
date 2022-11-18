@@ -1,0 +1,18 @@
+/*clearfix*/
+.section:before,
+.section::after,
+.menu:before,
+.menu:after,
+.container:before,
+.container:after,
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+.section::after,
+.menu:after,
+.container:after,
+.group:after {
+  clear: both;
+}

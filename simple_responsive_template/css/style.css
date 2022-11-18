@@ -1,0 +1,205 @@
+/* general*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.menu li {
+  float: left;
+  margin-right: 0.5em;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+/*header*/
+
+header {
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  background-color: #38e54d;
+  display: inline-block;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+
+.navbar {
+  float: right;
+  margin: 1.31rem 0 2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+.navbar li {
+  margin-top: 0.55em;
+}
+.navbar a,
+.button {
+  color: #2192ff;
+  padding: 0.5em;
+  border-radius: 0.7em;
+  line-height: 1em;
+  margin-bottom: 0;
+  font-size: 1.25em;
+  margin-right: 0.5em;
+}
+.navbar a {
+  margin-right: 0;
+}
+
+.navbar li a:focus,
+.navbar li a:hover {
+  background-color: #2192ff;
+  color: #fff;
+}
+
+a.selected {
+  background-color: #2192ff;
+  color: #fff;
+}
+
+/*main*/
+main {
+  background: #f3f3f3;
+}
+/*section1*/
+.secondary {
+  background: #fff;
+}
+/*section2*/
+
+.button {
+  background-color: #2192ff;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #21ff;
+  transition: all 1s ease;
+}
+
+.primary {
+  margin-bottom: 1.5em;
+}
+
+figcaption {
+  font-size: 2em;
+}
+
+footer {
+  padding: 2em;
+  color: #f3f3f3;
+  text-align: center;
+  background-color: #000;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #f3f3f3;
+}
+
+article p {
+  color: #665;
+}
+
+.container {
+  padding-left: 1.625em;
+  padding-right: 1.625em;
+}
+
+.secondary figure {
+  padding-top: 2em;
+}
+
+@media (min-width: 601px) {
+  .outofideas {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    float: none;
+    display: inline-block;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .container.header {
+    padding: 0;
+  }
+}
+
+@media (max-width: 964px) {
+  .primary figure {
+    display: none;
+  }
+}
+
+@media (min-width: 965px) {
+  .primary {
+    display: flex;
+  }
+
+  .primary article {
+    flex: 1;
+  }
+  .primary figure {
+    flex: 2;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .secondary aside {
+    margin-right: 1em;
+  }
+
+  .secondary aside:last-child {
+    margin-right: 0em;
+  }
+}
